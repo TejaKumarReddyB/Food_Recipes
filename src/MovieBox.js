@@ -20,7 +20,7 @@ const MovieBox =({titel, poster_path, vote_average, release_date, overview})=>{
                         <Modal.Title></Modal.Title>
                       </Modal.Header>
                       <Modal.Body>
-                      <img className="card-img-top" style={{width:'14rem'}} src={API_IMG+poster_path} alt="photo"/>
+                      <img className="card-img-top" style={{width:'14rem'}} src={API_IMG+poster_path} alt="bomma"/>
                       <h3>{titel}</h3>
                       <h4>IMDb: {vote_average}</h4>
                       <h5>Release Date: {release_date}</h5>
