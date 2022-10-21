@@ -1,6 +1,6 @@
 import { Modal,Button} from 'react-bootstrap';
 import React, {useState} from 'react';
-const API_IMG="https://api.themoviedb.org/3/movie/550?api_key=43fdd57546f8dbd08439a5aa0c4434c9";
+const API_IMG="https://image.tmdb.org/t/p/w500/";
 
 const MovieBox =({titel, poster_path, vote_average, release_date, overview})=>{
     
