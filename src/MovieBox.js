@@ -29,7 +29,7 @@ const MovieBox =({titel, poster_path, vote_average, release_date, overview})=>{
                       <p>{overview}</p>
                       </Modal.Body>
                       <Modal.Footer>
-                          <Button variant="secondary" onClick={handleClose}>Close</Button>
+                          <Button onClick={handleClose}>Close</Button>
                       </Modal.Footer>
                   </Modal>
               </div>
